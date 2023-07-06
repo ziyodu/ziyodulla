@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(31, 7, 65, 1) 35%, rgba(8, 4, 31, 1) 100%, rgba(124, 8, 255, 1) 100%);
+    font-family: 'DM Sans', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 150px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right {
+    height: 150px;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+
+}
+
+.right a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.right button {
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    width: 132px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left1 h1 {
+    background: -webkit-linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 58px;
+    font-weight: 700;
+
+}
+
+.left1 p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.tt button {
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    width: 132px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.tt {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 30px;
+}
+
+.text {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+
+}
+
+.text h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+section {
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section img {
+    width: 100%;
+}
+
+.parent {
+    width: 100%;
+    height: 70vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.right2 h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+
+}
+
+.right2 p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.right2 button {
+    width: 99px;
+    height: 31px;
+    border-radius: 4px;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    color: #fff;
+}
+
+.parent1 {
+    width: 100%;
+    height: 70vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.left3 h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.left3 p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.left3 button {
+    width: 99px;
+    height: 31px;
+    border-radius: 4px;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    color: #fff;
+}
+
+.zz {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.zz h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.zz p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.parent2 {
+    padding: 0 100px;
+
+
+}
+
+.parent2 img {
+    width: 100%;
+}
+
+.parent3 {
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    margin: 100px;
+    border-radius: 34px;
+    height: 295px;
+}
+.parent3 h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+.parent3 p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hh {
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border-radius: 70px;
+    justify-content: center;
+}
+.hh button {
+    width: 196px;
+    height: 60px;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    border-radius: 70px;
+    color: #fff;
+    border: 0;
+}
+.hh input {
+    width: 500px;
+    padding-left: 20px;
+    background: transparent;
+    color: #fff;
+    height: 60px;
+    border-radius: 70px;
+    outline: none;
+    border: none;
+}
+footer{
+    padding: 40px 100px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    border-bottom: 2px solid  #969696;
+  
+}
+.card2{
+    color: #fff;
+
+}
+.parent4{
+    padding: 0 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left4 p{
+    color: #fff;
+}
+.right4 p{
+    color: #fff;
+
+}
+.right4{
+    display: flex;
+    gap: 30px;
+}
